@@ -184,7 +184,6 @@ join Companies c on c.CompanyID = f.HiringCompany
 group by c.CompanyName
 go
 
---angajati platiti peste medie
 declare @Comp varchar(20)
 set @Comp = 'Emirates'
 select * from CompanySalary(@Comp) a where a.Salary >= (select AvgPayment from company_avg_payments c 
