@@ -1,4 +1,4 @@
-USE Airport_Management2
+USE Airport_Management
 
 /*procedure to modify the type of a desired column in the chosen table, 
 input: table name, column, new type*/
