@@ -1,3 +1,5 @@
+use Airport_Management
+
 select a.AirportName, s.FirstName, s.LastName
 from Airports a 
 join AirportStaff s 
