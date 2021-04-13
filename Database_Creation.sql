@@ -1,6 +1,6 @@
-CREATE DATABASE Airport_Management2
+CREATE DATABASE Airport_Management
 
-USE Airport_Management2
+USE Airport_Management
 
 GO
 
